@@ -1,18 +1,45 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenuScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    // coded by joshua
+    public GameObject mainMenuPanel;
+    public GameObject optionsPanel;
+    public void play()
     {
-        
+        SceneManager.LoadScene("Level1");
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void LevelSelector()
     {
-        Debug.log("hell0");
+        SceneManager.LoadScene("LevelSelector");
+
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
+
+    public void Options()
+    {
+        mainMenuPanel.SetActive(false);
+        optionsPanel.SetActive(true);
+
+    }
+
+    public void MenuBtn()
+    {
+        if (optionsPanel == true)
+        {
+            mainMenuPanel.SetActive(true);
+            optionsPanel.SetActive(false);
+        }
     }
 }
