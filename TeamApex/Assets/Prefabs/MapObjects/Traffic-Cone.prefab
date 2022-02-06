@@ -12,12 +12,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 43c3d174e5a6fc74c80d421e8088375d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 51.05093
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43c3d174e5a6fc74c80d421e8088375d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 51.05093
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43c3d174e5a6fc74c80d421e8088375d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.537249
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 43c3d174e5a6fc74c80d421e8088375d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.101187
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 43c3d174e5a6fc74c80d421e8088375d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.14193523
+      value: 1.0041
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 43c3d174e5a6fc74c80d421e8088375d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -53,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 43c3d174e5a6fc74c80d421e8088375d, type: 3}
       propertyPath: m_Name
-      value: Blender-Traffic-Cone
+      value: Traffic-Cone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43c3d174e5a6fc74c80d421e8088375d, type: 3}
